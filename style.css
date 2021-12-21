@@ -37,17 +37,17 @@ footer{
 #section1{
     background-color: blue;
     height: 40vh;
-    background-image: url(./Mountain.jfif);
+    background-image: url(./Hell-kitchenbrasil.jpg);
     background-size: cover;
     background-position: center;
-    color: 	#000000;
+    color: #ff6347;
 
 }
 #section2{
-    background-color:#7b68ee;
-    height: 80vh;
+    background-color:#ff6347;
+    height: 180vh;
     flex-direction: column;
-    color: 				#000000;
+    color: 				#fff;
 } 
 #section2 > div{
   
@@ -62,10 +62,20 @@ footer{
 
 }
 .habilidade{
-    background-color: #c0c0c0;
+    background-color: #000000;
     width: 100%;
     text-align: center;
     padding: 2em 0;
 
 
+}
+.receitas{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #000;
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #fff;
 }
